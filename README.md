@@ -20,7 +20,7 @@ design concepts, this project is 100% original code.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/d5hj9-qU3uE)
 
 # Development Environment
 
@@ -32,6 +32,7 @@ This uses Kotlin v2.4.21 on top of the Oracle Java 27.0.1 SDK.
 
 - [Kotlin Documentation](https://kotlinlang.org/docs)
 - [Stack Overflow](https://stackoverflow.com)
+- [GeeksForGeeks - Kotlin Tutorials](https://www.geeksforgeeks.org/kotlin)
 
 # Future Work
 
