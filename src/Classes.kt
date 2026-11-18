@@ -40,18 +40,18 @@ class Room(val name: String = "Unremarkable Room",
     }
 
     fun printInventory(): String {
-        when (inventory.size) {
-            0 -> return "there are no items worth grabbing."
-            1 -> return "there is a ${inventory[0]} that looks interesting."
-            else -> return "there are a ${inventory.joinToString()}."
+        return when (inventory.size) {
+            0 -> "there are no items worth grabbing."
+            1 -> "there is a ${inventory[0]} that looks interesting."
+            else -> "there are a ${inventory.joinToString()}."
         }
     }
 
     fun printExits(): String {
-        when (exits.size) {
-            0 -> return "There are no exits...Did you lock yourself in?"
-            1 -> return "There is an exit to the ${exits[0]}."
-            else -> return "There are exits to the ${exits.joinToString()}." //for exit -1, ", and "
+        return when (exits.size) {
+            0 -> "There are no exits...Did you lock yourself in?"
+            1 -> "There is an exit to the ${exits[0]}."
+            else -> "There are exits to the ${exits.joinToString()}." //for exit -1, ", and "
         }
     }
 
